@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b31ba;
+}
+
+img{
+    /* width: 300px; */
+    height: 300px;
+    animation: rodar 2.5s linear infinite;
+    transition: height 0.5s;
+}
+
+img:hover{
+    height: 350px;
+}
+
+@keyframes rodar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
