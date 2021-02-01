@@ -1,30 +1,82 @@
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0b31ba;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
 }
 
-img{
-    /* width: 300px; */
-    height: 300px;
-    animation: rodar 2.5s linear infinite;
-    transition: height 0.5s;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
-img:hover{
-    height: 350px;
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 1rem 0;
+
+  background-color: #0b31ba;
+  color: #fff;
+  width: 100%;
 }
 
-@keyframes rodar{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
+main div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  max-width: 250px;
+  width: 100%;
+  transition: 0.5s;
+}
+
+img:hover {
+  animation: rodar 5s linear infinite;
+}
+
+h1 {
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+small {
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+@keyframes rodar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
