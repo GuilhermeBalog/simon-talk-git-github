@@ -2,7 +2,7 @@
 
 Simon Talk mostrando o Git e algumas *features* do GitHub
 
-![Simon](simon.png)
+![Thumbnail](thumb.png)
 
 ## README
 
