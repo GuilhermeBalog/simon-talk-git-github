@@ -101,6 +101,11 @@ Com isso, temos o antes e depois:
 
 Muito melhor né?
 
+## Gitignore
+
+O gitignore serve para ignorar arquivos do versionamento, esse site ajuda a criar um para várias linguagens: https://www.toptal.com/developers/gitignore
+
+
 ## GitHub Pages
 
 É possível colocar seu site no ar de um jeito muito fácil e de graça utilizando o GitHub. Basta que seu repositório possua os arquivos `.html` que formam o site. Pode ser em uma *branch* separada, ou na própria master.
