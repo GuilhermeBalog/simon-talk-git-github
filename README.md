@@ -109,32 +109,32 @@ O gitignore serve para ignorar arquivos do versionamento, esse site ajuda a cria
 ## GitHub Pages
 
 É possível colocar seu site no ar de um jeito muito fácil e de graça utilizando o GitHub. Basta que seu repositório possua os arquivos `.html` que formam o site. Pode ser em uma *branch* separada, ou na própria master.
-No [repositório da talk](https://github.com/GuilhermeBalog/simon), por exemplo, na raíz tem um arquivo `index.html` e os outros necessários (js, css, imagens). Com isso é só ir na aba de opções e procurar por GitHub pages, selecionar onde está o código e pronto! O site vai estar disponível em `<username>.github.io/<repositório>`, no meu caso [guilhermebalog.github.io/simon-talk-git-github](https://guilhermebalog.ga/simon-talk-git-github/).
+No [repositório da talk](https://github.com/GuilhermeBalog/simon), por exemplo, na raíz tem um arquivo `index.html` e os outros necessários (js, css, imagens). Com isso é só ir na aba de opções e procurar por GitHub pages, selecionar onde está o código e pronto! O site vai estar disponível em `<username>.github.io/<repositório>`, no meu caso [guilhermebalog.github.io/simon-talk-git-github](https://guilhermebalog.github.io/simon-talk-git-github/).
 
 Também é possível fazer um site dedicado ao seu usuário ou organização. Para isso, crie um repositório chamado `<username>.github.io`, no meu caso [guilhermebalog.github.io](https://github.com/GuilhermeBalog/guilhermebalog.github.io), e jogue o código do site lá. A página estará disponível em `<username>.github.io`.
 
-O GHPages é Perfeito para **sites estáticos** (normalmente que não tem backend), **aplicações React** (ou outras libs de front) e **documentações** (javadoc, por exemplo).
+O GHPages é Perfeito para **sites estáticos** (normalmente que não tem backend), **aplicações React** (ou outras libs de front) e **documentações** (`javadoc`, por exemplo).
 
 Legal para seu site pessoal, ou portfólio. Você não paga nada e já tem um link pra chamar de seu.
 
-É bom que o nome do repositório seja sempre em minúsculo, sem caracteres especiais e separado por traço (por causa da URL gerada). Eu tenho um repositório chamado TodoList, que tem o seguinte problema
-  - [guilhermebalog.github.io/todolist](https://guilhermebalog.ga/todolist) → erro 404
-  - [guilhermebalog.github.io/TodoList/](https://guilhermebalog.ga/TodoList/) → Funciona
+É bom que o nome do repositório seja sempre em minúsculo, sem caracteres especiais e separado por traço (por causa da URL gerada). Eu tinha um repositório chamado TodoList, que tinha o seguinte problema:
+  - guilhermebalog.github.io/**todolist** → Erro 404
+  - guilhermebalog.github.io/**TodoList** → Funciona
 
 Eu sei que ninguém digita a URL na mão, mas no geral URLs são sempre minúsculas.
 
 É possível utilizar em vários tipos de projetos, como:
 
-- Documentação de um projeto java gerada com o javadoc:
-[guilhermebalog.github.io/java-pong/](https://guilhermebalog.ga/java-pong/)
+- Documentação de um projeto java gerada com o `javadoc`:
+[guilhermebalog.github.io/java-pong/](https://guilhermebalog.github.io/java-pong/)
 - Documentação de uma API gerada com o [Insomnia Documenter](https://github.com/jozsefsallai/insomnia-documenter):
-[guilhermebalog.github.io/ru-scraping/](https://guilhermebalog.ga/ru-scraping/)
+[guilhermebalog.github.io/ru-scraping/](https://guilhermebalog.github.io/ru-scraping/)
 - Página de HTML estática (HTML, CSS, JS):
-[guilhermebalog.github.io/tic-tac-toe/](https://guilhermebalog.ga/tic-tac-toe/)
+[guilhermebalog.github.io/tic-tac-toe/](https://guilhermebalog.github.io/tic-tac-toe/)
 - Aplicação criada com Create React App:
-[guilhermebalog.github.io/mother-weather/](https://guilhermebalog.ga/mother-weather/)
+[guilhermebalog.github.io/mother-weather/](https://guilhermebalog.github.io/mother-weather/)
 - Página gerada automaticamente a partir do README:
-[guilhermebalog.github.io/algoritmo-cyk/](https://guilhermebalog.ga/algoritmo-cyk/)
+[guilhermebalog.github.io/algoritmo-cyk/](https://guilhermebalog.github.io/algoritmo-cyk/)
 
 Para mais informações, veja: https://pages.github.com/
 
